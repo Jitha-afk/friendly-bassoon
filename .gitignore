@@ -157,8 +157,12 @@ venv.bak/
 # Security - Secrets and Credentials
 secrets.*
 credentials.*
-*secret*
-*credential*
+*secrets.json
+*secrets.yaml
+*secrets.yml
+*credentials.json
+*credentials.yaml
+*credentials.yml
 .aws/
 .ssh/
 id_rsa*

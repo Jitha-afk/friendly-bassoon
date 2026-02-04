@@ -31,7 +31,7 @@ Enhanced `.gitignore` with additional security patterns to prevent accidental co
 
 **Added Patterns:**
 - Private keys and certificates: `*.pem`, `*.key`, `*.p12`, `*.pfx`, `*.cer`, `*.crt`, `*.der`
-- Secret files: `secrets.*`, `credentials.*`, `*secret*`, `*credential*`
+- Secret files: `secrets.*`, `credentials.*`, `*secrets.json`, `*secrets.yaml`, `*secrets.yml`, `*credentials.json`, `*credentials.yaml`, `*credentials.yml`
 - AWS credentials: `.aws/`
 - SSH keys: `.ssh/`, `id_rsa*`, `id_dsa*`, `id_ecdsa*`, `id_ed25519*`
 - Environment variants: `.env.*`
